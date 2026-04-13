@@ -1,13 +1,6 @@
 {
   "name": "Bio",
-  "image": "artifactory.blackstone.com/mcr-docker-remote/devcontainers/typescript-node:22-bookworm",
-  "features": {
-    "artifactory.blackstone.com/bx-devcontainer-features/bx-certs": {},
-    "artifactory.blackstone.com/bx-devcontainer-features/bx-bash-aliases": {},
-    "artifactory.blackstone.com/ghcr-docker-remote/devcontainers-contrib/features/apt-get-packages": {
-      "packages": "bash-completion,vim"
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22-bookworm",
   "customizations": {
     "vscode": {
       "extensions": [
